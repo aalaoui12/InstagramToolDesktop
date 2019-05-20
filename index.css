@@ -1,0 +1,59 @@
+body {
+  background-color: rgb(236, 75, 91);
+}
+
+h1 {
+  font-family: "Baloo Bhai", cursive;
+  font-size: 40pt;
+  margin-top: 50px;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Roboto Slab Regular", serif;
+  color: rgb(35, 60, 219);
+  margin-top: 100px;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: center;
+}
+
+.container {
+  margin-top: 100px;
+  width: 200px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#user {
+  width: 100px;
+}
+
+#pass {
+  margin-top: 30px;
+  width: 100px;
+}
+
+#submitButton {
+  margin-top: 30px;
+  width: 100px;
+  text-align: center;
+}
+
+#status {
+  font-family: "Roboto Slab Regular", serif;
+  color: rgb(35, 60, 219);
+}
+
+@font-face {
+  font-family: "Baloo Bhai";
+  src: url("fonts/Baloo_Bhai/BalooBhai-Regular.ttf");
+
+}
+
+@font-face {
+  font-family: "Roboto Slab Regular";
+  src: url("fonts/Roboto_Slab/RobotoSlab-Regular.ttf");
+}

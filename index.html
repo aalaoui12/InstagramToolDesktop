@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="UTF-8">
+      <title>Instagram Tool</title>
+      <link rel="stylesheet" type="text/css" href="index.css" />
+      <script type="text/javascript" src="index.js"></script>
+    </head>
+    <body>
+      <h1>Ali's Instagram Tool</h1>
+      <h2>Enter your Instagram username and password below, and the tool will tell you who isn't following you back.</h2>
+      <div class="container">
+        <form autocomplete="off" spellcheck="false" method="POST">
+          <div id="user">
+            <input type="text" id="username" placeholder="Enter Username" name="uname" required>
+          </div>
+          <div id="pass">
+            <input type="password" id="password" placeholder="Enter Password" name="psw" required>
+          </div>
+          <div id="submitButton">
+            <button type="button" onclick="login(document.getElementById('username').value, document.getElementById('password').value)">Let's Go!</button>
+          </div>
+          <div id="status">
+            <b id=status></b>
+          </div>
+        </form>
+      </div>
+    </body>
+  </html>

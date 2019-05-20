@@ -1,0 +1,47 @@
+body {
+  background-color: rgb(236, 75, 91);
+}
+
+h2 {
+  font-family: "Roboto Slab Regular", serif;
+  color: rgb(35, 60, 219);
+  margin-top: 100px;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: center;
+}
+
+#container {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  width: 500px;
+  height: 500px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  overflow-y: auto;
+}
+
+.innerDiv {
+  border: solid black 2px;
+}
+
+.name {
+  font-family: "Roboto Slab Regular", serif;
+  text-align: center;
+  font-size: 16pt;
+  font-weight: bold;
+}
+
+.username {
+  font-family: "Roboto Slab Regular", serif;
+  text-align: center;
+  margin-top: -5px;
+}
+
+@font-face {
+  font-family: "Roboto Slab Regular";
+  src: url("fonts/Roboto_Slab/RobotoSlab-Regular.ttf");
+}
